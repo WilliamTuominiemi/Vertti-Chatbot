@@ -1,0 +1,118 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Come back soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome!", "No problem!", "My pleasure!", "You're welcome! Anything else you need?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "Can you tell me your name?"],
+      "responses": ["I'm your friendly assistant.", "I am a chatbot created to help you.", "You can call me Chatbot."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "What time do you close?"],
+      "responses": [
+        "We're open 24/7.",
+        "You can reach us any time, we are always here!",
+        "We operate around the clock."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Where are you located?", "What's your address?", "Where can I find you?"],
+      "responses": [
+        "We're available online 24/7!",
+        "You can access our services from anywhere.",
+        "We are an online-based service."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": ["What payment methods do you accept?", "Can I pay with credit card?", "Do you accept PayPal?"],
+      "responses": [
+        "We accept all major credit cards and PayPal.",
+        "You can pay using credit cards, debit cards, or PayPal.",
+        "We accept Visa, MasterCard, American Express, and PayPal."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": ["What services do you offer?", "Can you help me?", "What can you do?"],
+      "responses": [
+        "We offer a variety of services including customer support, information retrieval, and more.",
+        "I can assist you with a range of tasks from answering questions to providing support.",
+        "Our services include customer assistance, information lookups, and more."
+      ]
+    },
+    {
+      "tag": "shipping",
+      "patterns": [
+        "Do you offer international shipping?",
+        "Can you ship to other countries?",
+        "What are your shipping options?"
+      ],
+      "responses": [
+        "Yes, we offer international shipping.",
+        "We can ship to most countries worldwide.",
+        "Our shipping options include standard and express delivery."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Can you check my order status?", "How can I track my order?"],
+      "responses": [
+        "You can track your order using the tracking number provided.",
+        "Please provide your order number to check the status.",
+        "You can check your order status on our website under 'My Orders'."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["I want a refund", "Can I return my order?", "How do I get a refund?"],
+      "responses": [
+        "You can request a refund through our returns page.",
+        "Please visit our returns section to initiate a refund.",
+        "We offer a 30-day refund policy. Visit our returns page for more details."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": ["I need technical support", "I'm having trouble with my account", "Can you help me fix an issue?"],
+      "responses": [
+        "Please describe the issue, and I will do my best to assist you.",
+        "Our technical support team is here to help. Please provide more details about the problem.",
+        "I'm here to help with any technical issues. What seems to be the problem?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it going to rain today?", "How's the weather?"],
+      "responses": [
+        "I can check the weather for you. Which location are you interested in?",
+        "Please provide a location to get the current weather details.",
+        "Let me know the city or area, and I'll provide the weather update."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why was the math book sad? It had too many problems.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    }
+  ]
+}
