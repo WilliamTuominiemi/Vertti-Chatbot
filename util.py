@@ -1,4 +1,5 @@
 import nltk
+import numpy as np
 # nltk.download('punkt')
 from nltk.stem import SnowballStemmer
 stemmer = SnowballStemmer("english")
@@ -10,14 +11,16 @@ def stem(word):
     return stemmer.stem(word.lower())
 
 def bag_of_words(tokenized_sentence, all_words):
-    pass
+    tokenized_sentence = [stem(w) for w in tokenized_sentence]
+    bag = np.zeros(len(all_words), dtype=np.float32)
+    for idx, w, in enumerate(all_words):
+        if w in tokenized_sentence:
+            bag[idx] = 1.0
 
-# a = "How do I download the application"
-# print(a)
-# a = tokenize(a)
-# print(a)
+    return bag
 
-words = ["connects", "connected", "connecting"]
-stemmed_words = [stemmer.stem(word) for word in words]
-print(stemmed_words)
+sentence = ["hello", "how", "are", "you"]
+words = ["hi", "hello", "I", "you", "bye", "thank", "cool"]
+bag = bag_of_words(sentence, words)
+print(bag)
 
