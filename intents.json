@@ -113,6 +113,174 @@
         "Why was the math book sad? It had too many problems.",
         "Why did the scarecrow win an award? Because he was outstanding in his field!"
       ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": ["I need to book an appointment", "Can I schedule a meeting?", "How do I set up an appointment?"],
+      "responses": [
+        "You can book an appointment through our website.",
+        "Please provide your preferred date and time for the appointment.",
+        "Appointments can be scheduled online or through our customer service."
+      ]
+    },
+    {
+      "tag": "cancel_appointment",
+      "patterns": ["I need to cancel my appointment", "How do I cancel a meeting?", "Can I reschedule my appointment?"],
+      "responses": [
+        "You can cancel or reschedule your appointment through our website.",
+        "Please provide your appointment details to cancel or reschedule.",
+        "Visit the appointments section on our website to make changes."
+      ]
+    },
+    {
+      "tag": "reschedule",
+      "patterns": [
+        "Can I reschedule my appointment?",
+        "I need to change my appointment time",
+        "How do I reschedule my booking?"
+      ],
+      "responses": [
+        "You can reschedule your appointment through our website.",
+        "Please provide your current appointment details and preferred new time.",
+        "Visit our website to reschedule your appointment easily."
+      ]
+    },
+    {
+      "tag": "product_info",
+      "patterns": [
+        "Can you tell me about this product?",
+        "I need information about a product",
+        "What are the details of this item?"
+      ],
+      "responses": [
+        "Please provide the product name or SKU for more information.",
+        "You can find detailed product information on our website.",
+        "What specific product details are you looking for?"
+      ]
+    },
+    {
+      "tag": "warranty",
+      "patterns": [
+        "What is the warranty on this product?",
+        "Do you offer warranties?",
+        "How long is the warranty period?"
+      ],
+      "responses": [
+        "Our products come with a one-year warranty.",
+        "We offer a two-year warranty on selected items.",
+        "Please check the product page for specific warranty details."
+      ]
+    },
+    {
+      "tag": "exchange",
+      "patterns": ["Can I exchange this product?", "What is your exchange policy?", "How do I exchange an item?"],
+      "responses": [
+        "You can exchange products within 30 days of purchase.",
+        "Please visit our returns and exchanges page for details.",
+        "We offer exchanges on items that are in original condition."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": ["I have a complaint", "How do I file a complaint?", "I need to report an issue"],
+      "responses": [
+        "We are sorry to hear that. Please describe the issue in detail.",
+        "You can file a complaint through our customer service portal.",
+        "Our team will address your complaint as soon as possible."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I have some feedback", "Can I give you some feedback?", "Where can I leave feedback?"],
+      "responses": [
+        "We appreciate your feedback. Please share your thoughts with us.",
+        "You can leave feedback on our website.",
+        "Thank you for your feedback! It helps us improve our services."
+      ]
+    },
+    {
+      "tag": "subscription",
+      "patterns": [
+        "Do you have a subscription service?",
+        "How do I subscribe?",
+        "Tell me about your subscription plans"
+      ],
+      "responses": [
+        "Yes, we offer subscription services. You can find details on our website.",
+        "You can subscribe to our services through the subscription page.",
+        "We have various subscription plans to suit your needs."
+      ]
+    },
+    {
+      "tag": "unsubscription",
+      "patterns": ["How do I unsubscribe?", "I want to cancel my subscription", "Can I stop my subscription?"],
+      "responses": [
+        "You can unsubscribe through your account settings on our website.",
+        "Please visit the subscription management page to cancel your subscription.",
+        "If you need assistance with unsubscribing, our customer service team is here to help."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": ["I forgot my password", "How do I reset my password?", "I can't access my account"],
+      "responses": [
+        "You can reset your password using the 'Forgot Password' link on the login page.",
+        "Please provide your email address to receive password reset instructions.",
+        "Follow the instructions sent to your email to reset your password."
+      ]
+    },
+    {
+      "tag": "order_cancellation",
+      "patterns": ["I need to cancel my order", "How do I cancel an order?", "Can I stop my order?"],
+      "responses": [
+        "You can cancel your order within 24 hours of placing it.",
+        "Visit the 'My Orders' section on our website to cancel your order.",
+        "Please contact customer service to assist with order cancellation."
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "How do I join the loyalty program?",
+        "Tell me about your rewards program"
+      ],
+      "responses": [
+        "Yes, we have a loyalty program. You can join on our website.",
+        "Earn points and get rewards by joining our loyalty program.",
+        "Check out our loyalty program page for more details and benefits."
+      ]
+    },
+    {
+      "tag": "newsletter",
+      "patterns": ["How do I subscribe to your newsletter?", "I want to receive updates", "Can I get your newsletter?"],
+      "responses": [
+        "You can subscribe to our newsletter on our website.",
+        "Sign up for our newsletter to receive the latest updates and offers.",
+        "Visit our subscription page to join our mailing list."
+      ]
+    },
+    {
+      "tag": "privacy_policy",
+      "patterns": ["What is your privacy policy?", "How do you handle my data?", "Tell me about your data privacy"],
+      "responses": [
+        "You can read our privacy policy on our website.",
+        "We take your privacy seriously and handle your data with care.",
+        "Our privacy policy provides detailed information on data handling."
+      ]
+    },
+    {
+      "tag": "terms_of_service",
+      "patterns": [
+        "What are your terms of service?",
+        "Where can I find the terms and conditions?",
+        "Tell me about your service terms"
+      ],
+      "responses": [
+        "Our terms of service are available on our website.",
+        "You can read the terms and conditions on our terms of service page.",
+        "Please visit our website to view the detailed terms of service."
+      ]
     }
   ]
 }
