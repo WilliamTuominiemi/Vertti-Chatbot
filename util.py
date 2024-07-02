@@ -1,6 +1,6 @@
 import nltk
 import numpy as np
-# nltk.download('punkt')
+# nltk.download('punkt') uncomment for first run
 from nltk.stem import SnowballStemmer
 stemmer = SnowballStemmer("english")
 

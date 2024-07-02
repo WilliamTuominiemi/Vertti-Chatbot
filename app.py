@@ -4,7 +4,7 @@ from chat import get_response
 bot_name = 'VerttiBot'
 
 master = Tk()
-master.iconbitmap("vertti.ico")
+master.iconbitmap("images/vertti.ico")
 master.title(bot_name)
 master.geometry("400x300")  
 
