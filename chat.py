@@ -26,12 +26,8 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Vertti"
-print("Let's chat! (type 'quit' to exit)")
-while True:
-    sentence = input("You: ")
-    if sentence == "quit":
-        break
 
+def get_response(sentence):
     sentence = tokenize(sentence)
     X = bag_of_words(sentence, all_words)
     X = X.reshape(1, X.shape[0])
@@ -47,6 +43,6 @@ while True:
     if prob.item() > 0.75:
         for intent in intents['intents']:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                return random.choice(intent['responses'])
     else:
-        print(f"{bot_name}: I do not understand...")
+        return "I do not understand..."
